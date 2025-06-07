@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+    table{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+border-collapse: collapse;
+}
+
+table th, table tr{
+    border: 3px solid #dee2e6;
+    /*
+    padding-top: 5px;
+    padding-right: 10px;
+    */
+    padding: 5px 10px;
+}
+
+table th{
+background-color: #17a2b8;
+color: white;
+width: 100px;
+font-weight: 400;
+}
+
+tbody td:first-child {
+  background-color: #17a2b8;
+  color: white;
+  font-weight: 400;
+}
+
+.icono {
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.info { color: #17a2b8; }
+.edit { color: #28a745; }
+.delete { color: #dc3545; }
+
+
+</style>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilos a tablas</title>
 </head>
-<body>
-    
-<table>
-<thead>
-    <tr>
+<body> 
+    <table>
+        <thead>
+        </thead>
+        
+        <tbody>
+        <tr>
         <th>ID</th>
         <th>Nombre</th>
         <th>Apellidos</th>
@@ -17,15 +66,60 @@
         <th>Opciones</th>
 
     </tr>
-</thead>
 
-<tbody>
     <tr>
         <td>123456</td>
         <td>Gabriela</td>
         <td>Saldaña</td>
         <td>al44222@un.edu.mx</td>
-        <td>    </td>
+        <td><i class="fas fa-circle-info icono info"></i>
+        <i class="fas fa-pen icono edit"></i>
+        <i class="fas fa-trash icono delete"></i>     
+        <td>
+    </tr>
+
+    <tr>
+        <td>123456</td>
+        <td>Gabriela</td>
+        <td>Saldaña</td>
+        <td>al44222@un.edu.mx</td>
+        <td><i class="fas fa-circle-info icono info"></i>
+        <i class="fas fa-pen icono edit"></i>
+        <i class="fas fa-trash icono delete"></i>     
+        <td>
+    </tr>
+
+    <tr>
+        <td>123456</td>
+        <td>Gabriela</td>
+        <td>Saldaña</td>
+        <td>al44222@un.edu.mx</td>
+        <td><i class="fas fa-circle-info icono info"></i>
+        <i class="fas fa-pen icono edit"></i>
+        <i class="fas fa-trash icono delete"></i>     
+        <td>
+    </tr>
+
+    <tr>
+        <td>123456</td>
+        <td>Gabriela</td>
+        <td>Saldaña</td>
+        <td>al44222@un.edu.mx</td>
+        <td><i class="fas fa-circle-info icono info"></i>
+        <i class="fas fa-pen icono edit"></i>
+        <i class="fas fa-trash icono delete"></i>     
+        <td>
+    </tr>
+
+    <tr>
+        <td>123456</td>
+        <td>Gabriela</td>
+        <td>Saldaña</td>
+        <td>al44222@un.edu.mx</td>
+        <td><i class="fas fa-circle-info icono info"></i>
+        <i class="fas fa-pen icono edit"></i>
+        <i class="fas fa-trash icono delete"></i>     
+        <td>
     </tr>
 </tbody>
 
